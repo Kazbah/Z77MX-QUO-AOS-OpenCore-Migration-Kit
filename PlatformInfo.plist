@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PlatformInfo</key>
+	<dict>
+		<key>Automatic</key>
+		<true/>
+		<key>Generic</key>
+		<dict>
+			<key>AdviseWindows</key>
+			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
+			<key>MLB</key>
+			<string></string>
+			<key>ROM</key>
+			<data></data>
+			<key>SpoofVendor</key>
+			<false/>
+			<key>SystemProductName</key>
+			<string>iMac13,2</string>
+			<key>SystemSerialNumber</key>
+			<string></string>
+			<key>SystemUUID</key>
+			<string></string>
+		</dict>
+		<key>UpdateDataHub</key>
+		<true/>
+		<key>UpdateNVRAM</key>
+		<true/>
+		<key>UpdateSMBIOS</key>
+		<true/>
+		<key>UpdateSMBIOSMode</key>
+		<string>Create</string>
+	</dict>
+</dict>
+</plist>

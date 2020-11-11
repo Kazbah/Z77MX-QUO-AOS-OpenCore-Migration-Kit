@@ -1,0 +1,132 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Tahoma;\f1\fnil\fcharset0 Tahoma-Bold;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red57\green57\blue57;\red222\green53\blue46;\red21\green86\blue144;
+\red249\green251\blue251;}
+{\*\expandedcolortbl;;\cssrgb\c29020\c29020\c29020;\cssrgb\c90588\c29804\c23529;\cssrgb\c9020\c41961\c63137;
+\cssrgb\c98039\c98824\c98824;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww34240\viewh24940\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs72 \cf2 \expnd0\expndtw0\kerning0
+Z77MX-QUO-AOS Migrating from OZ to OpenCore\
+
+\fs26 \'a0\
+
+\fs72 \cf3 0) Disclaimer : This a Guide for the QUO motherboard, 100% to fail on any other. I have not tested it with iGPU only so take note. I have not tested it with any other SMBIOS than iMac13,2. I have not tested 'FileVault' drives or Fusion drives.\
+1) 
+\f1\b Backup your current firmware and setting
+\f0\b0  \'a0use Q-Flash \'a0Save BIOS to ROM... if you don't and end up with a brick you deserve what is happening to you
+\fs26 \cf2 \
+\'a0\
+
+\fs72 \cf3 2) Backup your data, only fools don't take backups
+\fs26 \cf2 \
+\'a0\
+Follow these steps ..don't come bitching if you don't do them in the correct order (and don't be creative, well you can be after you make it work with this recipe)\
+\'a0\
+3) Retrieving info, you will need using HackinTool\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Board Serial Number\'a0\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+ROM\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+ModelIdentifier\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Serial Number\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+System ID\
+\pard\pardeftab720\partightenfactor0
+\cf2 4) Download "OC to OC Migration.zip" (to come) and extract it\'a0\
+5) Now Open this file using XCode or your favorite Plist Editor\
+\'a0\'a0\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.insanelymac.com/forum/uploads/monthly_2020_03/image.png.62b6107448bcf1324333f9ce01a4622f.png"}}{\fldrslt \cf4 {{\NeXTGraphic image.png.62b6107448bcf1324333f9ce01a4622f.png \width8850 \height2265 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+6) Fill in the info from Step 3 in the Generic Section (don't touch anything else)\
+\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf2 {{\NeXTGraphic image.png.8738fb0250aebe929353ccf47ed15dfd.png \width7260 \height7095 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+7) Save as config.plist\
+\'a0\
+8) Open your EFI folder from your boot drive (the one that has the OZ folder), time to copy the stuff over\
+\'a0\
+\pard\pardeftab720\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.insanelymac.com/forum/uploads/monthly_2020_03/image.png.82dacf8d004ca28243a93a0dec384c9e.png"}}{\fldrslt \cf4 {{\NeXTGraphic image.png.82dacf8d004ca28243a93a0dec384c9e.png \width14175 \height6030 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}}}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+9) Time to flash the OC-friendly firmware, put the firmware on a USB stick and flash it\
+\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf2 {{\NeXTGraphic image.png.68d7e667e4264d3bd9ae15cdbc5d73cf.png \width4005 \height2790 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+10) If all goes well when it reboots , you will see the original QUO Boot Logo and then it will greet you with a Bootpicker screen .. kinda like when you hold Option on a real Mac. something like (to see reset NVRAM, Recovery HD and access to UEFI Shell from this screen .. press Spacebar)\
+\pard\pardeftab720\partightenfactor0
+\cf2 {{\NeXTGraphic image.png.52c0958bf895edce7b613d887c12968c.png \width9630 \height5250 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+11) Choose which OS to Boot and enjoy!\
+\'a0\
+\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 Special Topics:
+\f0\b0 \
+\'a0\
+The OC-friendly firmware basically it is :\
+\'a0 \'a0 \'a0 \'a0The H20-XMASS firmware\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+stripped of Ozmosis, FakeSMC, HFS, APFSDriverLoader,VoodooHDA and anything Oz specific while retaining the DSDT that made it special\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+snapped back the QUO Boot Logo from the original firmware (F3A) was the only way I found to fix black screen on cold boot\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Optimized Defaults values to be OC-friendly\'a0 \'a0 \'a0\
+\pard\pardeftab720\partightenfactor0
+\cf2 \'a0\
+\'a0\
+To get into UEFI Shell before invoking OC ---> Hold F12 at startup (nothing new)\
+Setting Default Boot Drive ---> OC honors Startup Disk Control Panel\
+Windows (UEFI)\'a0---> Two ways , pick one and stick with it\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+From OC Boot Picker (that is what I do)\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+From the mobo native boot picker (Holding F12 at startup and choosing Windows)\
+\pard\pardeftab720\partightenfactor0
+\cf2 HD4000 headless ---> In firmware setting .. iGPU enabled, Init Display first PEG (that's it --will not work with SMBIOS MacMini), make sure you have a working setup before enabling this feature.\
+Parrallels Desktop, VMWare Fusion, Virtual Box --> In firmware setttings, Intel Virtualization Technology \'a0Enabled (i left it off by default because there might be people with Sandy Bridge or Pentium CPU)\
+\'a0\
+To remove the BootPicker at startup (you can still make it show by holding Option at boot) --> Set ShowPicker key to false in config.plist\
+To disable the BootChime et startup --> Set AudioSupport key to false in config.plist\
+\'a0\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b \cf2 Troubleshooting:
+\f0\b0 \
+\'a0\
+\pard\pardeftab720\partightenfactor0
+\cf2 {{\NeXTGraphic image.png.e8e9329b6847766b609f666358bc8661.png \width5025 \height1965 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\pardeftab720\partightenfactor0
+\cf2 \
+\'a0\
+To retrieve Debug log from Terminal\
+\pard\pardeftab720\partightenfactor0
+
+\f2 \cf2 \cb5 nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:boot-log | awk '\{gsub(/%0d%0a%00/,"");gsub(/%0d%0a/,"\\n")\}1'\
+}
