@@ -1,9 +1,12 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2513
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Tahoma;\f1\fnil\fcharset0 Tahoma-Bold;\f2\fmodern\fcharset0 Courier;
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Tahoma;\f1\fnil\fcharset0 Tahoma-Bold;\f2\fswiss\fcharset0 Helvetica;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fmodern\fcharset0 Courier;\f5\froman\fcharset0 Times-Roman;
 }
-{\colortbl;\red255\green255\blue255;\red57\green57\blue57;\red222\green53\blue46;\red21\green86\blue144;
+{\colortbl;\red255\green255\blue255;\red57\green57\blue57;\red222\green53\blue46;\red58\green58\blue57;
+\red255\green255\blue255;\red58\green58\blue57;\red229\green229\blue229;\red0\green0\blue0;\red21\green86\blue144;
 \red249\green251\blue251;}
-{\*\expandedcolortbl;;\cssrgb\c29020\c29020\c29020;\cssrgb\c90588\c29804\c23529;\cssrgb\c9020\c41961\c63137;
+{\*\expandedcolortbl;;\cssrgb\c29020\c29020\c29020;\cssrgb\c90588\c29804\c23529;\cssrgb\c29052\c29052\c29016;
+\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c29084\c29084\c29011;\cssrgb\c91857\c91857\c91857;\cssrgb\c0\c0\c0;\cssrgb\c9020\c41961\c63137;
 \cssrgb\c98039\c98824\c98824;}
 {\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
 {\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
@@ -46,41 +49,66 @@ System ID\
 \cf2 4) Download "OC to OC Migration.zip" (to come) and extract it\'a0\
 5) Now Open this file using XCode or your favorite Plist Editor\
 \'a0\'a0\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Pasted Graphic.tiff \width3860 \height3120 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
 \pard\pardeftab720\partightenfactor0
-{\field{\*\fldinst{HYPERLINK "https://www.insanelymac.com/forum/uploads/monthly_2020_03/image.png.62b6107448bcf1324333f9ce01a4622f.png"}}{\fldrslt \cf4 {{\NeXTGraphic image.png.62b6107448bcf1324333f9ce01a4622f.png \width8850 \height2265 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}}}\pard\pardeftab720\partightenfactor0
-\cf2 \
-\'a0\
+\cf2 \'a0\
 6) Fill in the info from Step 3 in the Generic Section (don't touch anything else)\
+\'a0
+\f2\fs24 \cf0 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Pasted Graphic 1.tiff \width15960 \height6240 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}
+\f0\fs26 \cf2 \expnd0\expndtw0\kerning0
+\
+\
+\'a0\
+\cf4 \cb5 7) 
+\f2 \cf4 Save the file and save it again as MyPlatformInfo.plist somewhere safe outside of the Migration Kit
+\f0 \cf4 \
+\'a0\
+8) 
+\f2 \cf4 Open a Terminal Window at the Migration Kit location\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 {{\NeXTGraphic Pasted Graphic 2.tiff \width16460 \height9240 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\cb5 \
+\pard\pardeftab720\partightenfactor0
+
+\fs26 \cf4 \expnd0\expndtw0\kerning0
+9) Run the CreateConfig.sh script .. it will merge the config_template.plist with PlatformInfo.plist and create the config.plist file in the OC folder, you run the script by executing this command in the Terminal Window:\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f3 \cf6 \cb7 ./CreateConfig.sh
+\f2 \cf4 \cb5 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \cb1 10) Open your EFI folder from your boot drive (the one that has the OZ folder), time to copy the stuff over\
 \'a0\
 \pard\pardeftab720\partightenfactor0
-\cf2 {{\NeXTGraphic image.png.8738fb0250aebe929353ccf47ed15dfd.png \width7260 \height7095 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
-}¬}\pard\pardeftab720\partightenfactor0
-\cf2 \
-\'a0\
-7) Save as config.plist\
-\'a0\
-8) Open your EFI folder from your boot drive (the one that has the OZ folder), time to copy the stuff over\
-\'a0\
-\pard\pardeftab720\partightenfactor0
-{\field{\*\fldinst{HYPERLINK "https://www.insanelymac.com/forum/uploads/monthly_2020_03/image.png.82dacf8d004ca28243a93a0dec384c9e.png"}}{\fldrslt \cf4 {{\NeXTGraphic image.png.82dacf8d004ca28243a93a0dec384c9e.png \width14175 \height6030 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
+{\field{\*\fldinst{HYPERLINK "https://www.insanelymac.com/forum/uploads/monthly_2020_03/image.png.82dacf8d004ca28243a93a0dec384c9e.png"}}{\fldrslt \cf9 {{\NeXTGraphic image.png.82dacf8d004ca28243a93a0dec384c9e.png \width14175 \height6030 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
 }¬}}}\pard\pardeftab720\partightenfactor0
 \cf2 \
 \'a0\
-9) Time to flash the OC-friendly firmware, put the firmware on a USB stick and flash it\
+11) Time to flash the OC-friendly firmware, put the firmware on a USB stick and flash it\
 \'a0\
 \pard\pardeftab720\partightenfactor0
 \cf2 {{\NeXTGraphic image.png.68d7e667e4264d3bd9ae15cdbc5d73cf.png \width4005 \height2790 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
 }¬}\pard\pardeftab720\partightenfactor0
 \cf2 \
 \'a0\
-10) If all goes well when it reboots , you will see the original QUO Boot Logo and then it will greet you with a Bootpicker screen .. kinda like when you hold Option on a real Mac. something like (to see reset NVRAM, Recovery HD and access to UEFI Shell from this screen .. press Spacebar)\
+12) If all goes well when it reboots , you will see the original QUO Boot Logo and then it will greet you with a Bootpicker screen .. kinda like when you hold Option on a real Mac. something like (to see reset NVRAM, Recovery HD and access to UEFI Shell from this screen .. press Spacebar)\
 \pard\pardeftab720\partightenfactor0
 \cf2 {{\NeXTGraphic image.png.52c0958bf895edce7b613d887c12968c.png \width9630 \height5250 \noorient \appleattachmentpadding0 \appleembedtype0 \appleaqc
 }¬}\pard\pardeftab720\partightenfactor0
 \cf2 \
 \'a0\
-11) Choose which OS to Boot and enjoy!\
+13) Choose which OS to Boot and enjoy!\
 \'a0\
 \'a0\
 \pard\pardeftab720\partightenfactor0
@@ -128,5 +156,21 @@ To disable the BootChime et startup --> Set AudioSupport key to false in config.
 To retrieve Debug log from Terminal\
 \pard\pardeftab720\partightenfactor0
 
-\f2 \cf2 \cb5 nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:boot-log | awk '\{gsub(/%0d%0a%00/,"");gsub(/%0d%0a/,"\\n")\}1'\
+\f4 \cf2 \cb10 nvram 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:boot-log | awk '\{gsub(/%0d%0a%00/,"");gsub(/%0d%0a/,"\\n")\}1'\
+\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf8 \cb1 \outl0\strokewidth0 \strokec8 \
+Upgrading OpenCore with a new version a the Migration Kit
+\f5\b0\fs24 \
+\uc0\u8232 
+\f0\fs26 Backup your EFI folder (just in case)\'a0\
+Download new version of the Kit\
+Remember that MyPlatformInfo.plist that you saved somewhere safe earlier, copy it into the new Migration Kit folder\
+and redo step 8 thru 10 (the script will detect that MyPlatformInfo.plist is present and use it instead of PlatformInfo.plist to do the merge)\
+That's it
+\f5\fs24 \
+\pard\pardeftab720\partightenfactor0
+
+\f4\fs26 \cf2 \cb10 \outl0\strokewidth0 \
 }
