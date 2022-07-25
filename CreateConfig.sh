@@ -60,7 +60,7 @@ fi
 
 # Merge configuration template with output
 echo "Merging Template with your personnal PlatformInfo"
-/usr/libexec/PlistBuddy -c "Merge ${DIR}/config_template.plist " "$Config"
+/usr/libexec/PlistBuddy -c "Merge '${DIR}/config_template.plist' " "$Config"
 
 # Atempt to find custom .plist, else use given template file
 FILE="${DIR}/MyPlatformInfo.plist"
@@ -73,10 +73,10 @@ else
 fi
 
 # Merge platform information with output
-/usr/libexec/PlistBuddy -c "Merge ${PlatformInfo} " "$Config"
+/usr/libexec/PlistBuddy -c "Merge '${PlatformInfo}' " "$Config"
 
 # Validate the complete merge output
 #/usr/libexec/PlistBuddy -c "Print " "$Config"
 
-# Finalize migration utility 
+# Finalize migration utility
 echo "Done"
