@@ -1,6 +1,6 @@
 # Z77MX-QUO-AOS-OpenCore-Migration-Kit
  
- Based on OpenCore 0.8.2
+ Based on OpenCore 0.8.3
  
  Lilu 1.6.0
  
