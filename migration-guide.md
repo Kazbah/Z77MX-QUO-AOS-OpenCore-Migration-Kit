@@ -167,17 +167,3 @@ To retrieve Debug log from Terminal run this command:
 ## Support
 
 For support, join the _"official"_ forum topic on [InsanelyMac](https://www.insanelymac.com/forum/topic/343145-guide-z77mx-quo-aos-migrating-from-ozmosis-to-opencore/), But please try it on your own first, who knows, you might learn something!
-
-[url=https://postimg.cc/bGKT6XNc][img]https://i.postimg.cc/bGKT6XNc/1.png[/img][/url]
-
-[url=https://postimg.cc/7JNnYf1w][img]https://i.postimg.cc/7JNnYf1w/2.png[/img][/url]
-
-[url=https://postimg.cc/zV04xfss][img]https://i.postimg.cc/zV04xfss/3.png[/img][/url]
-
-[url=https://postimg.cc/V59xbgDL][img]https://i.postimg.cc/V59xbgDL/4.png[/img][/url]
-
-[url=https://postimg.cc/G9102VP5][img]https://i.postimg.cc/G9102VP5/5.png[/img][/url]
-
-[url=https://postimg.cc/crsV73b7][img]https://i.postimg.cc/crsV73b7/6.png[/img][/url]
-
-
