@@ -6,12 +6,18 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
+			<key>AdviseFeatures</key>
+			<false/>
+			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>MLB</key>
 			<string></string>
 			<key>ROM</key>
@@ -33,6 +39,8 @@
 		<true/>
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
+		<key>UseRawUuidEncoding</key>
+		<false/>
 	</dict>
 </dict>
 </plist>
