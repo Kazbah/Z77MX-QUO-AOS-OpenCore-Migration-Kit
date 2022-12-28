@@ -76,7 +76,14 @@ fi
 /usr/libexec/PlistBuddy -c "Merge '${PlatformInfo}' " "$Config"
 
 # Validate the complete merge output
-#/usr/libexec/PlistBuddy -c "Print " "$Config"
+echo ""
+echo ""
+echo "=============================================="
+echo "===    config.plist created -- validating  ==="
+echo "=============================================="
+echo ""
+echo ""
+./ocvalidate/ocvalidate ./EFI/OC/config.plist
 
 # Finalize migration utility
 echo "Done"
