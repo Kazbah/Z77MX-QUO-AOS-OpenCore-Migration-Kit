@@ -4,7 +4,7 @@ This project was originally intended to help with the migration from OZ to bette
 
 It's new intention is to maintain and continue updating to the latest compatible version of OpenCore for the same user base.
 
-Our latest version is based on [OpenCore 0.8.7](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.7)
+Our latest version is based on [OpenCore 0.8.8](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.8)
 
 **_Get started with the [migration-guide](./migration-guide.md)_.**
 
@@ -12,10 +12,10 @@ Our latest version is based on [OpenCore 0.8.7](https://github.com/acidanthera/O
 
 ## Kexts
 
-- 🧩 Lilu 1.6.2 _(kernel patching tool)_
-- 🔊 AppleALC 1.7.7 _(native macOS HD audio kernel extension)_
+- 🧩 Lilu 1.6.3 _(kernel patching tool)_
+- 🔊 AppleALC 1.7.8 _(native macOS HD audio kernel extension)_
 - 🪪 VirtualSMC 1.3.0 _(advanced Apple SMC emulator for kernel)_
-- 🖥️ WhateverGreen 1.6.2 _(GPU selector kernel extension for macOS)
+- 🖥️ WhateverGreen 1.6.3 _(GPU selector kernel extension for macOS)
 
 ## Disclaimers
 
